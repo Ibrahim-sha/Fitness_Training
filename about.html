@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<title>Fitness Equipment - Personal Training | Forward Fitness Club</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/styles.css">
+	<meta name="description" content="Forward Fitness Club has state-of-the-art fitness equipment and provides personal training.">
+	<link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="icon" type="images/png" sizes="32x32" href="images/favicon-32.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+	<link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+</head>
+<body>
+
+	<div id="container">
+	
+	<!-- Mobile Nav --> 
+		<nav class="mobile-nav">
+			<div id="menu-links">
+				<a href="index.html">Home</a>
+				<a href="about.html">About Us</a>
+				<a href="classes.html">Classes</a>
+				<a href="nutrition.html">Nutrition</a>
+				<a href="contact.html">Contact Us</a>
+			</div>
+			<a class="menu-icon" onclick="hamburger()">
+				<div>&#9776;</div>
+			</a>
+		</nav>
+
+		<!-- Use the header area for thle website name or logo -->
+		<header id="ffc-logo">
+			<a href="index.html"><img src="images/forward-fitness-logo.png" alt="Forward Fitness logo"></a>
+		</header>
+
+		<!-- Tablet, Desktop Nav -->
+		<nav class="tablet-desktop">
+			<ul>
+				<li><a href="index.html">Home</a></li> 
+				<li><a href="about.html">About Us</a></li> 
+				<li><a href="classes.html">Classes</a></li> 
+				<li><a href="nutrition.html">Nutrition</a></li> 
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+		
+		<!-- Use the main area to add the main content of the webpage -->
+		<main>
+		
+			<video controls poster="images/hero-image.jpg">
+				<source src="media/ffc_video.mp4" type="video/mp4">
+				<source src="media/ffc_video.webm" type="video/webm">
+				<track src="media/captions.vtt" kind="captions" srclang="en" label="Captions">
+				<track src="media/descriptions.vtt" kind="descriptions" srclang="en" label="English Descriptions">
+				<p>Your browser does not support the video element.</p>
+			</video>
+		
+		<section id="weights">
+		
+		<h1>Weights</h1>
+		<img src="images/people-with-weights.jpg" alt="Two people working out with a weight in each hand" class="round">
+		<p>Our facility includes a weight training area with several weight options. Build lean muscle with weights and improve your core with weight training.</p>
+		<ul class="tablet-desktop">
+			<li>Dumbbells</li>
+			<li>Kettle bells</li>
+			<li>Barbells</li>
+		</ul>
+		
+		</section>
+		
+		<section id="cardio">
+		
+			<h1>Cardio</h1>
+			<img src="images/people-workingout-machines.jpg" alt="Cardio Equipment" class="round">
+			<p> Burn fat through cardio workouts. Experts recommend 150 minutes of cardio each week. We have several equipment choices for your workout.</p>
+			<ul class="tablet-desktop">
+				<li>Treadmills</li>
+				<li>Elliptical Machines</li>
+				<li>Exercise Bikes</li>
+			</ul>
+			
+		</section>
+		
+		<section id="training">
+		
+			<h1>Personal Training</h1>
+			<img src="images/personal-trainer.jpg" alt="Personal Training" class="round">
+			<p>Our certified personal trainers work with you to help you obtain your fitness goals and track your progress. Personal training has many benefits.</p>
+			<ul class="tablet-desktop">
+				<li>Accountability</li>
+				<li>Personalized Program</li>
+				<li>Consistent Support and Motivation</li>
+			</ul>
+			
+		</section>
+		
+		<section id="exercises" class="tablet-desktop">
+		
+			<h1>Common Exercises</h1>
+			<p>The following are common exercises that we encourage our clients to do as part of their daily exercise routine.</p>
+			<dl>
+				<dt>Burpee</dt>
+				<dd>Burpees are a great full-body exercise to increase your strength and endurance. Begin in a standing position, drop into a squat and extend your hands forward, kick your feet back and then forward again quickly, and then jump up from a squatted position. <span class="viewex" onclick="burpees()"> View Example.</span></dd>
+				
+				<dt>Plank</dt>
+				<dd>Planks build your core strength. To perform a plank, get in a push-up position and rest your forearms on the floor. Hold the position as long as you can. <span class="viewex" onclick="plank()"> View Example.</span> </dd>
+				
+				<dt>Mountain Climber</dt>
+				<dd>Mountain climbers are a good cardio exercise. Place your hands on the floor in a push-up position, bring one knee up to your chest, and then switch as quickly as you can (as though you are climbing a mountain). <span class="viewex" onclick="mountain()"> View Example.</span></dd>
+				
+				<dt>PushUps</dt>
+				<dd>Drop and give me 20! Pushups are one of the most basic yet effective bodyweight moves you can perform because of the number of muscles that are recruited to perform them. <span class="viewex" onclick="pushups()"> View Example.</span></dd>
+			
+				<dt>Squats</dt>
+				<dd>Squats increase lower body and core strength, as well as flexibility in your lower back and hips. Because they engage some of the largest muscles in the body, they also pack a major punch in terms of calories burned. <span class="viewex" onclick="squats()"> View Example.</span></dd>
+			
+				<dt>Lunges</dt>
+				<dd>Challenging your balance is an essential part of a well-rounded exercise routine. Lunges do just that, promoting functional movement while also increasing strength in your legs and glutes.<span class="viewex" onclick="lunges()"> View Example.</span></dd>
+			
+			</dl>
+			
+			<video controls id="example">
+				<source id="vid-src" src="vid" type="video/mp4">
+				<track id="despsrc" src="des" kind="descriptions" srclang="en" label="English Descriptions">
+				<p>Your browser does not support the video element.</p>
+			</video>
+			
+			<p>For more information about how to stay active, visit our GYM</p>
+			
+			</section>
+		</main>
+
+		<h1>Health and Fitness Progress Report</h1>
+  
+		<div id="progressReport">
+		  <h2>My Progress</h2>
+		  <div class="progressItem">
+			<h3>Weight Goal</h3>
+			<div class="progressBar">
+			  <div class="progressBarFill" id="weightProgressBarFill"></div>
+			</div>
+			<p id="weightProgressPercentage"></p>
+		  </div>
+		  <div class="progressItem">
+			<h3>Cardio Goal</h3>
+			<div class="progressBar">
+			  <div class="progressBarFill" id="cardioProgressBarFill"></div>
+			</div>
+			<p id="cardioProgressPercentage"></p>
+		  </div>
+		</div>
+
+  <style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #312b2b;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #7b878b;
+}
+
+h2 {
+  color: #88959c;
+}
+
+#progressReport {
+  background-color: #1c1a1a;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#progressBar {
+  width: 100%;
+  background-color: #798e8d;
+  height: 30px;
+  border-radius: 4px;
+}
+
+#progressBarFill {
+  background-color: #4CAF50;
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.5s;
+}
+
+#progressPercentage {
+  text-align: center;
+  margin-top: 10px;
+}
+  </style>
+
+  <script>
+	// Calculate and update progress report
+function updateProgressReport(progress) {
+  var progressBar = document.getElementById("progressBarFill");
+  var progressPercentage = document.getElementById("progressPercentage");
+  
+  progressBar.style.width = progress + "%";
+  progressPercentage.textContent = progress + "%";
+}
+
+// Example: Simulate progress update
+var progress = 0;
+setInterval(function() {
+  progress += Math.floor(Math.random() * 5);
+  
+  if (progress > 100) {
+    progress = 100;
+  }
+  
+  updateProgressReport(progress);
+}, 2000);
+
+  </script>
+		
+		<!-- Use the footer area to add webpage footer content -->
+		<footer>
+		
+			<div class="copyright">
+				<p>&copy; Copyright 2023. All Rights Reserved.</p>
+				<p><a href="mailto:forwardfitness@club.net">forwardfitness@.net</a></p>
+			</div>
+			
+			<div class="social">
+				<a href="https://www.facebook.com/fwdfitclub" target="_blank"><img src="images/facebook-logo.png" alt="black and white Facebook logo"></a>
+				<a href="https://twitter.com/fwdfitclub" target="_blank"><img src="images/twitter-logo.png" alt="black and white Twitter logo"></a>
+			</div>
+			
+		</footer>
+	
+	</div>
+	
+	<script src="scripts/script.js"></script>
+	
+</body>
+</html>

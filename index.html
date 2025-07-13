@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<title>Complete Fitness - Free Cardio Pack| Forward Fitness Club</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/styles.css">
+	<meta name="description" content="The Forward Fitness is an elite fitness center dedicated to helping clients achieve their fitness and nutrition goals.">
+	<link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="icon" type="images/png" sizes="32x32" href="images/favicon-32.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+	<link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+</head>
+<body>
+
+	<div id="container">
+	
+		<!-- Mobile Nav --> 
+		<nav class="mobile-nav">
+			<div id="menu-links">
+				<a href="index.html">Home</a>
+				<a href="about.html">About Us</a>
+				<a href="classes.html">Classes</a>
+				<a href="nutrition.html">Nutrition</a>
+				<a href="contact.html">Contact Us</a>
+			</div>
+			<a class="menu-icon" onclick="hamburger()">
+				<div>&#9776;</div>
+			</a>
+		</nav>
+			
+		<!-- Use the header area for the website name or logo -->
+		<header id="ffc-logo">
+			<a href="index.html"><img src="images/forward-fitness-logo.png" alt="Forward Fitness Club logo"></a>
+		</header>
+
+		<!-- Tablet, Desktop Nav -->
+		<nav class="tablet-desktop">
+			<ul>
+				<li><a href="index.html">Home</a></li> 
+				<li><a href="about.html">About Us</a></li> 
+				<li><a href="classes.html">Classes</a></li> 
+				<li><a href="nutrition.html">Nutrition</a></li> 
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+		
+		<!-- Hero Image -->
+		<div id="hero" class="tablet-desktop">
+			<img src="images/hero-image.jpg" alt="left arm extended holding a weight">
+		</div>
+		<!-- Use the main area to add the main content of the webpage -->
+		<main>
+		
+		
+		<div class="mobile">
+		
+			<p>Welcome to Forward Fitness. Our mission is to help our clients meet their fitness and nutrition goals. </p>
+			
+			<h3>FREE One-Week Trial Membership!</h3>
+			<p>Call Us Today to Get Started</p>
+			<p class="tel-link"><a href="tel:999559608">(814) 555-9608</a></p>
+			
+			<h4>Fitness Hours:</h4>
+			<ul class="hours">
+				<li>Mon-Thu: 6:00am-6:00pm</li>
+				<li>Friday: 6:00am-4:00pm</li>
+				<li>Saturday: 8:00am-6:00pm</li>
+				<li>Sunday: Closed</li>
+			</ul>
+			
+		</div>
+		
+		<div class="tablet-desktop">
+		
+			<p>Welcome to Forward Fitness, Our mission is to help our clients meet their fitness and nutrition goals.</p>
+			
+			<p>If you have struggled with getting healthy and need the motivation and resources to make a healthy lifestyle change, contact us today. Our facility includes state-of-the-art equipment, convenient training programs, and nutrition tips and information to keep you healthy.</p>
+			
+			<p>We provide the best and effective health and fitness advice so that you can get the best results out of your efforts. <span class="action">Start Now</span></p>
+		
+		</div>
+		
+		<div class="grid">
+		
+		<figure class="frame">
+			<a href="classes.html"><img src="images/fitness-group.jpg" alt="group of fitness people"></a>
+			<figcaption class="pic-text">Group Fitness</figcaption>
+		</figure>
+		
+		<figure class="frame">
+			<a href="nutrition.html"><img src="images/food-heart.jpg" alt="healthy food in the shape of a heart"></a>
+			<figcaption class="pic-text">Meal Plans</figcaption>
+		</figure>
+		
+		<figure class="frame">
+			<a href="contact.html"><img src="images/personal-trainer.jpg" alt="personal trainer with a clipboard"></a>
+			<figcaption class="pic-text">Start Today</figcaption>
+		</figure>
+		
+		</div>
+		
+		</main>
+
+		<style>
+			body {
+			  font-family: Arial, sans-serif;
+			  background-color: #131010;
+			  margin: 0;
+			  padding: 20px;
+			}
+		
+			h1 {
+			  text-align: center;
+			  color: #069cac;
+			}
+		
+			h2 {
+			  color: #069cac;
+			}
+		
+			form {
+			  background-color: #ebf7fc;
+			  padding: 20px;
+			  margin-bottom: 20px;
+			  border-radius: 4px;
+			  box-shadow: 0 0 10px rgba(63, 64, 64, 0.1);
+			}
+		
+			label {
+			  display: block;
+			  margin-bottom: 10px;
+			  color: #555555;
+			}
+		
+			input[type="text"],
+			input[type="email"],
+			input[type="password"] {
+			  width: 100%;
+			  padding: 8px;
+			  border: 1px solid #292121;
+			  border-radius: 4px;
+			  box-sizing: border-box;
+			  margin-bottom: 10px;
+			}
+		
+			input[type="submit"] {
+			  background-color: #55aeba;
+			  color: rgb(23, 5, 5);
+			  padding: 10px 15px;
+			  border: none;
+			  cursor: pointer;
+			}
+		
+			input[type="submit"]:hover {
+			  background-color: #55aeba;
+			}
+		  </style>
+		
+	
+		  
+		  <!-- Login Form -->
+		  <h2>Login</h2>
+		  <form action="/login" method="post">
+			<label for="loginEmail">Email:</label>
+			<input type="email" id="loginEmail" name="loginEmail" required>
+			
+			<label for="loginPassword">Password:</label>
+			<input type="password" id="loginPassword" name="loginPassword" required>
+			
+			<input type="submit" value="Login">
+		  </form>
+		  
+		  <!-- Signup Form -->
+		  <h2>Signup</h2>
+		  <form action="/signup" method="post">
+			<label for="signupName">Name:</label>
+			<input type="text" id="signupName" name="signupName" required>
+			
+			<label for="signupEmail">Email:</label>
+			<input type="email" id="signupEmail" name="signupEmail" required>
+			
+			<label for="signupPassword">Password:</label>
+			<input type="password" id="signupPassword" name="signupPassword" required>
+			
+			<input type="submit" value="Signup">
+		  </form>
+
+		  <script>
+			// Event listener for login form submission
+document.getElementById("loginForm").addEventListener("submit", function(event) {
+  event.preventDefault(); // Prevent form submission
+  
+  // Get form values
+  var email = document.getElementById("loginEmail").value;
+  var password = document.getElementById("loginPassword").value;
+  
+  // Perform login validation and authentication
+  // Example: Send login data to server for verification
+  
+  // Display success message or error message
+  if (email === "example@example.com" && password === "password") {
+    alert("Login successful!");
+  } else {
+    alert("Invalid email or password!");
+  }
+});
+
+// Event listener for signup form submission
+document.getElementById("signupForm").addEventListener("submit", function(event) {
+  event.preventDefault(); // Prevent form submission
+  
+  // Get form values
+  var name = document.getElementById("signupName").value;
+  var email = document.getElementById("signupEmail").value;
+  var password = document.getElementById("signupPassword").value;
+  
+  // Perform signup validation and registration
+  // Example: Send signup data to server for user creation
+  
+  // Display success message or error message
+  alert("Signup successful!");
+});
+		  </script>
+
+
+		
+		<!-- Use the footer area to add webpage footer content -->
+		<footer>
+		
+			<div class="copyright">
+				<p>&copy; Copyright 2023. All Rights Reserved.</p>
+				<p><a href="mailto:forwardfitness@club.net">forwardfitness@.net</a></p>
+			</div>
+			
+			<div class="social">
+				<a href="https://www.facebook.com/fwdfitclub" target="_blank"><img src="images/facebook-logo.png" alt="black and white Facebook logo"></a>
+				<a href="https://twitter.com/fwdfitclub" target="_blank"><img src="images/twitter-logo.png" alt="black and white Twitter logo"></a>
+			</div>
+			
+		</footer>
+		
+	</div>
+	
+	<script src="scripts/script.js"></script>
+	
+</body>
+</html>
+
+<?php 
+
+include "config.php";
+
+  if (isset($_POST['submit'])) {
+
+    $first_name = $_POST['firstname'];
+
+    $last_name = $_POST['lastname'];
+
+    $email = $_POST['email'];
+
+    $password = $_POST['password'];
+
+    $gender = $_POST['gender'];
+
+    $sql = "INSERT INTO `users`(`firstname`, `lastname`, `email`, `password`, `gender`) VALUES ('$first_name','$last_name','$email','$password','$gender')";
+
+    $result = $conn->query($sql);
+
+    if ($result == TRUE) {
+
+      echo "New record created successfully.";
+
+    }else{
+
+      echo "Error:". $sql . "<br>". $conn->error;
+
+    } 
+
+    $conn->close(); 
+
+  }
+
+?>
+
+<!DOCTYPE html>
+
+<html>
+
+<body>
+
+<h2>Signup Form</h2>
+
+<form action="" method="POST">
+
+  <fieldset>
+
+    <legend>Personal information:</legend>
+
+    First name:<br>
+
+    <input type="text" name="firstname">
+
+    <br>
+
+    Last name:<br>
+
+    <input type="text" name="lastname">
+
+    <br>
+
+    Email:<br>
+
+    <input type="email" name="email">
+
+    <br>
+
+    Password:<br>
+
+    <input type="password" name="password">
+
+    <br>
+
+    Gender:<br>
+
+    <input type="radio" name="gender" value="Male">Male
+
+    <input type="radio" name="gender" value="Female">Female
+
+    <br><br>
+
+    <input type="submit" name="submit" value="submit">
+<a class="btn btn-info" href="view.php">view</a>
+
+  </fieldset>
+
+</form>
+
+</body>
+
+</html>
