@@ -1,7 +1,5 @@
 # Fitness-Website
-Thus a modern, responsive fitness website built for a local gym or fitness center. It offers an engaging user interface to showcase gym services, trainer profiles, workout plans, membership options, and contact details. This project is ideal for promoting fitness programs and attracting new members through a sleek and informative online presence.
-
-*s a modern, responsive fitness website built for a local gym or fitness center. It offers an engaging user interface to showcase gym services, trainer profiles, workout plans, membership options, and contact details. This project is ideal for promoting fitness programs and attracting new members through a sleek and informative online presence.
+This is a modern, responsive fitness website built for a local gym or fitness center. It offers an engaging user interface to showcase gym services, trainer profiles, workout plans, membership options, and contact details. This project is ideal for promoting fitness programs and attracting new members through a sleek and informative online presence.
 
 *Features
 Home page with welcoming banner and call-to-action
