@@ -1,8 +1,23 @@
 # Fitness-Website
+Thus a modern, responsive fitness website built for a local gym or fitness center. It offers an engaging user interface to showcase gym services, trainer profiles, workout plans, membership options, and contact details. This project is ideal for promoting fitness programs and attracting new members through a sleek and informative online presence.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/3075dd26-cf8b-4065-aa26-e6b13f23d635/deploy-status)](https://app.netlify.com/sites/friendly-hypatia-a25ed2/deploys)
+*s a modern, responsive fitness website built for a local gym or fitness center. It offers an engaging user interface to showcase gym services, trainer profiles, workout plans, membership options, and contact details. This project is ideal for promoting fitness programs and attracting new members through a sleek and informative online presence.
 
-This is a mock-gym website school project teaching the fundamentals of HTML 5, CSS & JS. It includes a variety of features including internal/external links, images, custom fonts, embedded maps, consistent and detailed page styling, and support for mobile, tablet, and desktop devices.
+*Features
+Home page with welcoming banner and call-to-action
+About section to highlight gym mission and facilities
+Trainer profiles with bios and specializations
+Workout plans,schedules and nutrition plans
+Membership infp
+Contact form with location map integration
+Fully responsive design 
+Clean and maintainable code
+
+*Technologies Used
+HTML5, CSS3, JavaScript
+Bootstrap 
+MySQL
+
 
 
 [Home Page Sample]
